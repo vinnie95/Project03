@@ -1,0 +1,9 @@
+Open a new terminal and run the below mentioned commands:
+
+PS E:\Projects\Project03> g++ -o singleton *.cpp --> We are keeping the name of the executable as singleton.
+
+PS E:\Projects\Project03> ./singleton
+New instance created.      
+This message is from user1.
+New instance created.      
+This message is from user2.
