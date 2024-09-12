@@ -1,0 +1,207 @@
+Dell@DESKTOP-PEPNSPQ MINGW64 ~
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Dell@DESKTOP-PEPNSPQ MINGW64 ~
+$ git init
+Initialized empty Git repository in C:/Users/Dell/.git/
+
+Dell@DESKTOP-PEPNSPQ MINGW64 ~ (master)
+$ git status
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .bash_history
+        .config/
+        .gitconfig
+        .lesshst
+        .ssh/
+        .viminfo
+        .vscode/
+        3D Objects/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        Links/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{868a3785-c745-11ec-9ab2-b24e083345b7}.TM.blf
+        NTUSER.DAT{868a3785-c745-11ec-9ab2-b24e083345b7}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{868a3785-c745-11ec-9ab2-b24e083345b7}.TMContainer00000000000000000002.regtrans-ms
+        OneDrive/
+        Pictures/
+        Saved Games/
+        Searches/
+        Videos/
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Dell@DESKTOP-PEPNSPQ MINGW64 ~ (master)
+$ pwd
+/c/Users/Dell
+
+Dell@DESKTOP-PEPNSPQ MINGW64 ~ (master)
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{868a3785-c745-11ec-9ab2-b24e083345b7}.TM.blf
+ NTUSER.DAT{868a3785-c745-11ec-9ab2-b24e083345b7}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{868a3785-c745-11ec-9ab2-b24e083345b7}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+Dell@DESKTOP-PEPNSPQ MINGW64 ~ (master)
+$ pwd
+/c/Users/Dell
+
+Dell@DESKTOP-PEPNSPQ MINGW64 ~
+$ cd ..
+
+Dell@DESKTOP-PEPNSPQ MINGW64 /c/Users
+$ cd ..
+
+Dell@DESKTOP-PEPNSPQ MINGW64 /c
+$ cd E :
+bash: cd: too many arguments
+
+Dell@DESKTOP-PEPNSPQ MINGW64 /c
+$ cd E:
+
+Dell@DESKTOP-PEPNSPQ MINGW64 /e
+$ cd Projects/
+
+Dell@DESKTOP-PEPNSPQ MINGW64 /e/Projects
+$ cd Project03
+
+Dell@DESKTOP-PEPNSPQ MINGW64 /e/Projects/Project03
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Dell@DESKTOP-PEPNSPQ MINGW64 /e/Projects/Project03
+$ git init
+Initialized empty Git repository in E:/Projects/Project03/.git/
+
+Dell@DESKTOP-PEPNSPQ MINGW64 /e/Projects/Project03 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        commandsToUse.txt
+        logger.cpp
+        logger.h
+        main.cpp
+        singleton.exe
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Dell@DESKTOP-PEPNSPQ MINGW64 /e/Projects/Project03 (master)
+$ git add .
+
+Dell@DESKTOP-PEPNSPQ MINGW64 /e/Projects/Project03 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   commandsToUse.txt
+        new file:   logger.cpp
+        new file:   logger.h
+        new file:   main.cpp
+        new file:   singleton.exe
+
+
+Dell@DESKTOP-PEPNSPQ MINGW64 /e/Projects/Project03 (master)
+$ git commit -m "Notes - project 03"
+[master (root-commit) 2bd996c] Notes - project 03
+ 5 files changed, 56 insertions(+)
+ create mode 100644 commandsToUse.txt
+ create mode 100644 logger.cpp
+ create mode 100644 logger.h
+ create mode 100644 main.cpp
+ create mode 100644 singleton.exe
+
+Dell@DESKTOP-PEPNSPQ MINGW64 /e/Projects/Project03 (master)
+$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Dell@DESKTOP-PEPNSPQ MINGW64 /e/Projects/Project03 (master)
+$ git remote add origin git@github.com:vinnie95/Project03.git
+
+Dell@DESKTOP-PEPNSPQ MINGW64 /e/Projects/Project03 (master)
+$ git push origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 19.21 KiB | 1.01 MiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:vinnie95/Project03.git
+ * [new branch]      master -> master
+
+Dell@DESKTOP-PEPNSPQ MINGW64 /e/Projects/Project03 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Dell@DESKTOP-PEPNSPQ MINGW64 /e/Projects/Project03 (master)
+$ git log
+commit 2bd996c1d32cd1d0624e09ea7046a702a3a4cda4 (HEAD -> master, origin/master)
+Author: vinnie95 <vineet.krsingh95@gmail.com>
+Date:   Thu Sep 12 13:31:05 2024 +0530
+
+    Notes - project 03
+
+Dell@DESKTOP-PEPNSPQ MINGW64 /e/Projects/Project03 (master)
+$
