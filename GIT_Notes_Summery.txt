@@ -1,0 +1,41 @@
+Create a repo on github.
+
+Open git bash.
+Go to the folder of the project.
+
+Type - git init
+It will generate the .git folder which will contain all the version control details.
+
+Type - 
+$ git remote add origin git@github.com:vinnie95/Project03.git
+
+syntax - git remote add origin <URL>
+
+It will create a connection between the local project folder in the PC and the repository.
+
+Type - git status
+It will show the status of the files. It will show files added as green and files not added as red.
+
+Type - git add. 
+It is used to add all the files of the folder to the local stage.
+
+Type - git add <file name>
+It is used to add individul files of the folder to the local stage.
+
+Type - git status 
+Keep rechecking the status of the files.
+
+Type - git commit -m "commit message"
+It is used to commit the changes. This is the final uploading.
+
+Type - git push origin master 
+It is used to push the changes to the git hub.
+
+Now, refresh the git hub repository. You will be able see your changes on git hub.
+
+
+
+
+
+
+
